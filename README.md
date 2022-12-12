@@ -10,13 +10,13 @@
         2.Can buy rare plants/ seeds too.
         
         
-Problem statement - 
+Problem statement - https://docs.google.com/document/d/1j1QfPCSQjRvFUEGo1wEGogE3qrFaseODx71Hz898wYo/edit?usp=sharing
 
-Market research - 
+Market research -https://docs.google.com/document/d/1AD7oZGg9pXbaeE1AbmHgTw-L9uTFoEyDRnOiYDgl8tk/edit?usp=sharing
 
-Wire frame - 
+Wire frame -https://drive.google.com/file/d/1IySjsNsgFfi3b5GqaPiXM0Z6WTTtiahF/view?usp=share_link
 
-User flow - 
+User flow - https://drive.google.com/file/d/16bplpv6KbGs8ezb0uMvlvr241g4hxH76/view?usp=share_link
 
 Vee Blooms live website - 
   
