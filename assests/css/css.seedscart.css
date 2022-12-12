@@ -26,6 +26,7 @@ text-decoration: none;
 color: #171a0f;
 display: flex;
 align-items: center;
+font-family: "Carter One", cursive;
 }  
 .nav{
     display: flex;
@@ -63,7 +64,8 @@ h1:hover{
     margin:10px;
     text-decoration: none;
     margin-right: 50px;
-    font-size: 15px;
+    font-size: 18px;
+    color:#30650f;
 }
 #fa{
     color: yellow;
