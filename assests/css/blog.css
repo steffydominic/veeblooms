@@ -3,8 +3,6 @@
     padding: 0; */
     font-family: 'Kanit', sans-serif;
 }
-
-
 header{
     align-items: center;
     display: flex;
@@ -90,16 +88,6 @@ font-family: "Carter One", cursive;
    width: 80px;
    height: 60px;
 }
-h1{
-    font-size: 40px;
-    color:rgb(76, 82, 67);
-    text-align: center;
-}
-h1:hover{
-    letter-spacing: 1px;
-    color: red;
-}
-
 .class{
   list-style-type:circle;
  }
@@ -137,85 +125,4 @@ box-shadow: 5px 5px 20px rgb(20, 2, 2);
   font-size: 63px;
   margin-top: 99px;
   margin-right: 20px;
-}
-.center{
-  display: flex;
-}
-#fa {
-  color:#2d3b04;
-  font-size:40px;
-  margin-top: 90px;
-}
-#topcontent {
-list-style-type:square;
-color:rgb(69, 7, 7);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-transition: 1s;
-width:90%;
-margin-left: 22px;
-padding: 50px;
-margin-top: 30px;
-border-radius: 20px 5px;
-
-}
-
-#topcontent:hover{
-transform:scale(0.95);
-transition: .8s;
-box-shadow: 5px 5px 20px rgb(135, 120, 120);
-background-image:linear-gradient(rgba(224, 226, 233, 0.3), rgba(219, 219, 223, 0.838));
-}
-
-#topcontent li{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
-}
-.top2 h2{
-  font-size:50px;
-  color:rgb(52, 79, 60);
-  text-align: center;
-  text-shadow: 2px 2px 3px rgb(15, 13, 13);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-.require{
-  width: 50%;
-  height: 500px;
-  text-align: center;
-  background-image: linear-gradient(to bottom right,#6c957c,#c0cec8);
- padding: 10px 10px;
- transition: 1s;
- color:#0c290b;
- margin-left: 23%;
- font-size: 22px;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-.require:hover{
-  transform:scale(0.95);
-  transition: .8s;
-  box-shadow: 5px 5px 20px rgb(135, 120, 120);
-  color:#020005;
-  border-radius: 50px;
-  font-size: 19px;
- ;
-}
-#fai{
-  width: 100px;
-  height:100px;
-  color:gold;
-  font-size: 50px;
-}
-.bottom h3{
-  color:rgb(52, 79, 60);
-  font-size: 26px;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-}
-.bottom li{
-  color:#1a0d63;
-  font-size: 17px;
-  margin-left: 100px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
 }

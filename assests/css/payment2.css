@@ -24,6 +24,9 @@
     font-family: "Carter One", cursive;
     font-size: 80px;
   }
+  a{
+    text-decoration: none;
+  }
   
   #shopping {
     color: blue;
@@ -102,58 +105,93 @@
   .steps{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-sizing: 2px 2px 5px black;
   }
   .step1,.step2,.step3{
     width: 100px;
     height:60px;
     margin:20px 50px;
-   
+    
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    
+   
   }
-  .step1{
+  .step2{
+    
     border: solid green;
     border-width: 0px 0px 5px 0px;
   }
-.content{
-   width:800px;
-   height: 600px;
-  text-align: center;
-   margin: 20px 10px 20px 20px;
-}
-.content input{
-  width: 400px;
-  border: 1px solid black;
-}
-label{
-  font-size: 20px;
+  .payment{
+    width: 500px;
+    margin: 50px auto;
+    
+  }
+  .payment >h2{
+    text-align: center;
+  }
+  .pay{
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    box-shadow: 2px 2px 5px black;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .pay img{
+    width: 80px;
+    margin: auto 50px auto 20px;
+    border-radius: 10px;
+  }
+  .pay .para{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+  }
+  .pay .para h4{
+    color: rgb(99, 90, 90);
+  }
+  .icons{
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icons img:nth-child(2){
+    width:120px;
+    margin: auto 50px;
+    height:70px;
+       }
+       .icons img:nth-child(1){
+        width: 80px;
+       }
+  .icons img{
+    width: 100px;
 
-}
-#box{
-  height: 30px;
-  margin-top: 10px;
-}
-.whole{
-  width: 1000px;
-  height:700px;
-  border: 1.25px solid black;
-  margin-left:320px;
-}
-.last{
-  padding:10px;
-  background-color: green;
-  margin-top:70px;
-  width:100px;
-  height:25px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .upipay{
+     width: 500px;
+     display: flex;
+  }
+  .upipay img{
+    width: 90px;
+    height: 70px;
+ }
+ .option{
+  display: flex;
+  justify-content: space-between;
   border-radius: 10px;
-  text-align: center;
-  font-size: 20px;
-}
-.last a{
-  text-decoration: none;
+ }
+ .option a{
   color:white;
-}
+  background-color: green;
+  border-radius: 20px;
+  padding: 15px 30px;
+  margin: 50px 20px;
+ }
