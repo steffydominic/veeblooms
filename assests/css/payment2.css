@@ -183,12 +183,12 @@
     width: 90px;
     height: 70px;
  }
- .option{
+ .last{
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
  }
- .option a{
+ .last a{
   color:white;
   background-color: green;
   border-radius: 20px;

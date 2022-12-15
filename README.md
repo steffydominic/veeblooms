@@ -19,4 +19,5 @@ Wire frame -https://drive.google.com/file/d/1IySjsNsgFfi3b5GqaPiXM0Z6WTTtiahF/vi
 User flow - https://drive.google.com/file/d/16bplpv6KbGs8ezb0uMvlvr241g4hxH76/view?usp=share_link
 
 Vee Blooms live website - https://steffydominic.github.io/veeblooms/
+Sonar Cloud-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=fssa-batch3_steffy.alexander__web_project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=fssa-batch3_steffy.alexander__web_project)
   

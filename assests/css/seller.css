@@ -4,10 +4,7 @@
     font-family: "Kanit", sans-serif;
   }
   body{
-  background-image: linear-gradient(to bottom right,#28583a,#34a26f);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+   background-color: #f1f3f4;
   }
   header {
     align-items: center;
@@ -101,3 +98,58 @@
     width: 80px;
     height: 60px;
   }
+.main{
+    width: 970px;
+    height: 430px;
+    box-shadow: 5px 5px 5px grey;
+    margin: 150px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+.information{
+    padding: 30px;
+}
+
+.main >h2{
+    margin-bottom: 20px;
+    
+}
+.main input{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.main a{
+    padding: 15px 25px;
+   background-image: linear-gradient(to bottom right,#28583a,#34a26f);;
+    border-radius: 10px;
+    margin:30px auto;
+    display: block;
+    width:50px;
+    text-decoration: none;
+    color: black;
+}
+.seller{
+    background-image: linear-gradient(to bottom right,#28583a,#34a26f);;
+    padding:20px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+.personal{
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px auto;
+}
+.personal label{
+    display: flex;
+    flex-direction: column;
+}
+.personal label input{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}
+input[type=file]{
+   border: 0px;
+}
