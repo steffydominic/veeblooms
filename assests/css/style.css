@@ -102,10 +102,12 @@ header a {
 #buynow {
   padding: 8px 20px;
   margin-top: 200px;
-  color: #5d963f;
-  background-color: black;
+  color:rgb(7, 5, 5);
+  background-color:#5e7907;
   font-size: 20px;
   border-radius: 20px;
+  margin: 200px 70px 90px 100px;
+  border-style: none;
 }
 
 .content1 {

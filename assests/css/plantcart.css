@@ -76,6 +76,7 @@ h1:hover{
 .main{
 	width:90%;
 	margin: 100px 5%;
+    
 
 }
 .product{
@@ -116,7 +117,7 @@ h1:hover{
     background-color:#171a0f;
 	width:50%;
 	height: 200px;
-	margin: 50px auto;
+	margin: 30px auto;
     padding: 30px;
 	border-radius: 30px;
     color: white;
@@ -154,9 +155,7 @@ display: flex;
     font-size: 20px;
     font-weight: 700;
 }
-.total{
-margin-top: 300px;
-}
+
 .total a{
     width: 230px;
     height: 50px;
@@ -214,7 +213,7 @@ footer{
   background-color:#5d963f;
   border-radius: 20px;
   position: absolute;
-  top: 1650px;
+  top: 1350px;
   left: 300px;
 }
 .foot2{
