@@ -4,10 +4,6 @@
   font-family: "Kanit", sans-serif;
 }
 
-body {
-  background-color: #f1f3f4;
-}
-
 header {
   align-items: center;
   display: flex;
@@ -18,6 +14,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
+  align-items: center;
   font-size: 30px;
 }
 
@@ -43,8 +40,6 @@ header a {
   border: none;
   cursor: pointer;
 }
-
-
 
 .nav {
   display: flex;
@@ -79,67 +74,83 @@ header a {
   height: 60px;
 }
 
-/* header ends */
-.main {
-  width: 970px;
-  height: 430px;
-  box-shadow: 5px 5px 5px grey;
-  margin: 150px auto;
-  border-radius: 20px;
-  background-color: white;
-}
-
-.information {
-  padding: 30px;
-}
-
-.main>h2 {
-  margin-bottom: 20px;
-
-}
-
-.main input {
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-
-.main a {
-  padding: 15px 25px;
-  background-image: linear-gradient(to bottom right, #28583a, #34a26f);
-  border-radius: 10px;
-  margin: 30px auto;
-  display: block;
-  width: 50px;
-  text-decoration: none;
-  color: black;
-}
-
-.seller {
-  background-image: linear-gradient(to bottom right, #28583a, #34a26f);
-  padding: 20px;
-  border-radius: 20px 20px 0px 0px;
+body>h1 {
   text-align: center;
+  margin: 50px auto;
 }
 
-.personal {
-  height: 70px;
+.steps {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  border: 1px solid black;
+
+}
+
+.step1,
+.step2,
+.step3 {
+  width: 100px;
+  height: 60px;
+  margin: 20px 50px;
+
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  font-size: 20px;
+
 }
 
-.personal label {
-  display: flex;
-  flex-direction: column;
+.step1 {
+  border: solid green;
+  border-width: 0px 0px 5px 0px;
 }
 
-.personal label input {
-  width: 200px;
+.content {
+  width: 800px;
+  height: 600px;
+  text-align: center;
+  margin: 20px 10px 20px 20px;
+}
+
+.content input {
+  width: 400px;
+  border: 1px solid black;
+}
+
+label {
+  font-size: 20px;
+
+}
+
+#box {
   height: 30px;
   margin-top: 10px;
 }
 
-input[type=file] {
-  border: 0px;
+.whole {
+  width: 900px;
+  height: 550px;
+  border: 1.25px solid black;
+  margin-left: 320px;
+}
+
+.last {
+  padding: 10px;
+  background-color: green;
+  margin-top: 50px;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.last a {
+  text-decoration: none;
+  color: white;
+}
+
+.last:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
 }
