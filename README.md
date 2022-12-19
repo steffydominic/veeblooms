@@ -16,6 +16,6 @@ Market research -https://docs.google.com/document/d/1AD7oZGg9pXbaeE1AbmHgTw-L9uT
 
 Wire frame -https://drive.google.com/file/d/1IySjsNsgFfi3b5GqaPiXM0Z6WTTtiahF/view?usp=share_link
 
-User flow - https://drive.google.com/file/d/16bplpv6KbGs8ezb0uMvlvr241g4hxH76/view?usp=share_link
+User flow - https://drive.google.com/file/d/1dVnb5CjLt6uzsaNzWvUB8emu7nmjcNsF/view?usp=sharing
 
 Vee Blooms live website -https://github.com/fssa-batch3/steffy.alexander__web_project.git
